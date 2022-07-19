@@ -234,8 +234,11 @@ tbody tr:nth-child(odd) th {
  */
 
 .lead {
-  font-size: 1.25rem;
-  font-weight: 300;
+  font-size: 1.2rem;
+  position: absolute;
+  right:  1rem;
+  bottom: 1rem;
+  left:   1rem;
 }
 
 
@@ -261,14 +264,12 @@ tbody tr:nth-child(odd) th {
  */
 
 .container {
-  max-width: 38rem;
+  
   padding-left:  1rem;
   padding-right: 1rem;
   margin-left:  auto;
   margin-right: auto;
 }
-
-
 /*
  * Masthead
  *
