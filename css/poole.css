@@ -241,7 +241,22 @@ tbody tr:nth-child(odd) th {
   left:   1rem;
 }
 
+.sns {
+    display: flex;
+}
 
+.sns img{
+    float: left;
+    width: 100%;
+}
+
+@media (min-width: 48em) {
+    
+    .sns {
+        margin-top:20rem;
+    }
+
+}
 /*
  * Messages
  *
